@@ -1,0 +1,7 @@
+﻿sede,ciudad,complejidad,total_citas,citas_noshow,tasa_noshow_pct,ingreso_perdido_usd,satisfaccion_prom
+Sede Poblado,Medellín,Alta Complejidad,11971,2716,22.69,164593.55,4.11
+Sede Centro,Cali,Consulta Externa,10734,2391,22.28,149644.35,4.11
+Sede Norte,Cali,Alta Complejidad,7143,1576,22.06,95746.25,4.1
+Sede Prado,Barranquilla,Mediana Complejidad,7298,1448,19.84,93762.0,4.1
+Sede Chapinero,Bogotá,Alta Complejidad,6025,1270,21.08,68246.65,4.11
+Sede Sur,Cali,Mediana Complejidad,4483,905,20.19,60876.75,4.09

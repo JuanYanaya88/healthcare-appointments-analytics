@@ -1,0 +1,11 @@
+﻿especialidad,total_citas,citas_noshow,tasa_noshow_pct,tarifa_prom_usd,ingreso_perdido_usd,espera_prom_dias,satisfaccion_prom,pct_perdida_total,pareto_perdida_acum_pct
+Medicina General,11434,2632,23.02,38.7,99598.0,10.6,4.1,15.74,15.74
+Ortopedia,4287,926,21.6,83.53,75948.4,10.8,4.12,12.0,27.74
+Psicología,3895,1142,29.32,60.89,68817.0,10.6,4.1,10.87,38.61
+Ginecología,4900,1006,20.53,69.42,68537.2,10.6,4.11,10.83,49.44
+Dermatología,3783,948,25.06,73.44,68043.6,10.8,4.09,10.75,60.19
+Odontología,4271,1170,27.39,55.86,64473.75,10.7,4.11,10.19,70.38
+Pediatría,5684,959,16.87,52.82,49119.2,10.7,4.11,7.76,78.14
+Cardiología,3795,517,13.62,96.81,49048.5,10.9,4.1,7.75,85.89
+Oftalmología,3292,623,18.92,79.24,48149.4,10.7,4.09,7.61,93.5
+Neurología,2313,383,16.56,111.34,41134.5,10.8,4.12,6.5,100.0

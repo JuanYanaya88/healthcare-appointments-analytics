@@ -1,0 +1,73 @@
+﻿doctor_id,doctor_name,specialty,primary_clinic_id,base_fee_usd
+DR-001,Dr(a). Especialista 001,Medicina General,CL-01,38.0
+DR-002,Dr(a). Especialista 002,Medicina General,CL-05,38.0
+DR-003,Dr(a). Especialista 003,Medicina General,CL-04,38.0
+DR-004,Dr(a). Especialista 004,Medicina General,CL-03,38.0
+DR-005,Dr(a). Especialista 005,Medicina General,CL-03,38.0
+DR-006,Dr(a). Especialista 006,Medicina General,CL-06,38.0
+DR-007,Dr(a). Especialista 007,Medicina General,CL-01,38.0
+DR-008,Dr(a). Especialista 008,Medicina General,CL-05,38.0
+DR-009,Dr(a). Especialista 009,Medicina General,CL-02,38.0
+DR-010,Dr(a). Especialista 010,Medicina General,CL-01,38.0
+DR-011,Dr(a). Especialista 011,Medicina General,CL-04,38.0
+DR-012,Dr(a). Especialista 012,Medicina General,CL-06,38.0
+DR-013,Dr(a). Especialista 013,Medicina General,CL-05,38.0
+DR-014,Dr(a). Especialista 014,Medicina General,CL-05,38.0
+DR-015,Dr(a). Especialista 015,Medicina General,CL-05,38.0
+DR-016,Dr(a). Especialista 016,Medicina General,CL-05,38.0
+DR-017,Dr(a). Especialista 017,Medicina General,CL-04,38.0
+DR-018,Dr(a). Especialista 018,Pediatría,CL-01,52.0
+DR-019,Dr(a). Especialista 019,Pediatría,CL-06,52.0
+DR-020,Dr(a). Especialista 020,Pediatría,CL-03,52.0
+DR-021,Dr(a). Especialista 021,Pediatría,CL-04,52.0
+DR-022,Dr(a). Especialista 022,Pediatría,CL-03,52.0
+DR-023,Dr(a). Especialista 023,Pediatría,CL-02,52.0
+DR-024,Dr(a). Especialista 024,Pediatría,CL-06,52.0
+DR-025,Dr(a). Especialista 025,Pediatría,CL-05,52.0
+DR-026,Dr(a). Especialista 026,Pediatría,CL-04,52.0
+DR-027,Dr(a). Especialista 027,Ginecología,CL-03,68.0
+DR-028,Dr(a). Especialista 028,Ginecología,CL-05,68.0
+DR-029,Dr(a). Especialista 029,Ginecología,CL-04,68.0
+DR-030,Dr(a). Especialista 030,Ginecología,CL-03,68.0
+DR-031,Dr(a). Especialista 031,Ginecología,CL-03,68.0
+DR-032,Dr(a). Especialista 032,Ginecología,CL-02,68.0
+DR-033,Dr(a). Especialista 033,Ginecología,CL-01,68.0
+DR-034,Dr(a). Especialista 034,Cardiología,CL-04,95.0
+DR-035,Dr(a). Especialista 035,Cardiología,CL-06,95.0
+DR-036,Dr(a). Especialista 036,Cardiología,CL-01,95.0
+DR-037,Dr(a). Especialista 037,Cardiología,CL-06,95.0
+DR-038,Dr(a). Especialista 038,Cardiología,CL-05,95.0
+DR-039,Dr(a). Especialista 039,Cardiología,CL-02,95.0
+DR-040,Dr(a). Especialista 040,Dermatología,CL-04,72.0
+DR-041,Dr(a). Especialista 041,Dermatología,CL-01,72.0
+DR-042,Dr(a). Especialista 042,Dermatología,CL-05,72.0
+DR-043,Dr(a). Especialista 043,Dermatología,CL-05,72.0
+DR-044,Dr(a). Especialista 044,Dermatología,CL-03,72.0
+DR-045,Dr(a). Especialista 045,Dermatología,CL-01,72.0
+DR-046,Dr(a). Especialista 046,Ortopedia,CL-06,82.0
+DR-047,Dr(a). Especialista 047,Ortopedia,CL-03,82.0
+DR-048,Dr(a). Especialista 048,Ortopedia,CL-06,82.0
+DR-049,Dr(a). Especialista 049,Ortopedia,CL-05,82.0
+DR-050,Dr(a). Especialista 050,Ortopedia,CL-05,82.0
+DR-051,Dr(a). Especialista 051,Ortopedia,CL-05,82.0
+DR-052,Dr(a). Especialista 052,Odontología,CL-02,55.0
+DR-053,Dr(a). Especialista 053,Odontología,CL-03,55.0
+DR-054,Dr(a). Especialista 054,Odontología,CL-03,55.0
+DR-055,Dr(a). Especialista 055,Odontología,CL-03,55.0
+DR-056,Dr(a). Especialista 056,Odontología,CL-01,55.0
+DR-057,Dr(a). Especialista 057,Odontología,CL-04,55.0
+DR-058,Dr(a). Especialista 058,Psicología,CL-01,60.0
+DR-059,Dr(a). Especialista 059,Psicología,CL-05,60.0
+DR-060,Dr(a). Especialista 060,Psicología,CL-05,60.0
+DR-061,Dr(a). Especialista 061,Psicología,CL-06,60.0
+DR-062,Dr(a). Especialista 062,Psicología,CL-05,60.0
+DR-063,Dr(a). Especialista 063,Psicología,CL-03,60.0
+DR-064,Dr(a). Especialista 064,Oftalmología,CL-06,78.0
+DR-065,Dr(a). Especialista 065,Oftalmología,CL-03,78.0
+DR-066,Dr(a). Especialista 066,Oftalmología,CL-02,78.0
+DR-067,Dr(a). Especialista 067,Oftalmología,CL-06,78.0
+DR-068,Dr(a). Especialista 068,Oftalmología,CL-03,78.0
+DR-069,Dr(a). Especialista 069,Neurología,CL-01,110.0
+DR-070,Dr(a). Especialista 070,Neurología,CL-03,110.0
+DR-071,Dr(a). Especialista 071,Neurología,CL-05,110.0
+DR-072,Dr(a). Especialista 072,Neurología,CL-02,110.0

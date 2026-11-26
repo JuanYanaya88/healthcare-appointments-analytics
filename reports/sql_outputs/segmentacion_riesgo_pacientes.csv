@@ -1,0 +1,5 @@
+﻿segmento_riesgo,pacientes,pct_pacientes,citas_totales,citas_noshow,pct_del_total_noshow,ingreso_perdido_usd
+1. Cumplido (0 faltas),7430,50.5,19242,0,0.0,0.0
+2. Riesgo Bajo (1 falta ocasional),3093,21.02,13901,3093,30.01,192603.25
+3. Riesgo Moderado (1 falta),1968,13.38,3217,1968,19.1,122966.6
+4. Riesgo Alto (Reincidente >=2 faltas),2223,15.11,11294,5245,50.89,317299.7

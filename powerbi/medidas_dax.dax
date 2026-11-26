@@ -1,0 +1,88 @@
+// =============================================================================
+// Medidas DAX — Dashboard Operacional de Salud (Citas Médicas y No-Show)
+// Modelo Estrella: fact_appointments, dim_patients, dim_doctors, dim_clinics, dim_date
+// =============================================================================
+
+// --- 1. KPIs Operacionales ---
+
+Total Citas Efectivas =
+COUNTROWS ( fact_appointments )
+
+Pacientes Únicos =
+DISTINCTCOUNT ( fact_appointments[patient_id] )
+
+Citas Atendidas =
+CALCULATE (
+    COUNTROWS ( fact_appointments ),
+    fact_appointments[appointment_status] = "Atendida"
+)
+
+Citas No-Show =
+SUM ( fact_appointments[is_noshow] )
+
+Tasa de Asistencia % =
+DIVIDE ( [Citas Atendidas], [Total Citas Efectivas], 0 )
+
+Tasa de No-Show % =
+DIVIDE ( [Citas No-Show], [Total Citas Efectivas], 0 )
+
+Espera Promedio (Días) =
+AVERAGE ( fact_appointments[lead_time_days] )
+
+Satisfacción Promedio =
+AVERAGE ( fact_appointments[patient_satisfaction] )
+
+
+// --- 2. Impacto Financiero ---
+
+Ingreso Realizado (USD) =
+SUM ( fact_appointments[realized_revenue_usd] )
+
+Ingreso Perdido (USD) =
+SUM ( fact_appointments[lost_revenue_usd] )
+
+% Ingreso Perdido =
+DIVIDE (
+    [Ingreso Perdido (USD)],
+    [Ingreso Realizado (USD)] + [Ingreso Perdido (USD)],
+    0
+)
+
+Tarifa Promedio (USD) =
+AVERAGE ( fact_appointments[consultation_fee_usd] )
+
+
+// --- 3. Inteligencia de Tiempo ---
+
+Tasa No-Show Mes Anterior =
+CALCULATE (
+    [Tasa de No-Show %],
+    DATEADD ( dim_date[date], -1, MONTH )
+)
+
+Variación No-Show MoM (pp) =
+[Tasa de No-Show %] - [Tasa No-Show Mes Anterior]
+
+
+// --- 4. Efectividad de Recordatorios SMS y Riesgo ---
+
+Tasa No-Show con SMS =
+CALCULATE (
+    [Tasa de No-Show %],
+    fact_appointments[sms_reminder_sent] = 1
+)
+
+Tasa No-Show sin SMS =
+CALCULATE (
+    [Tasa de No-Show %],
+    fact_appointments[sms_reminder_sent] = 0
+)
+
+Reducción No-Show por SMS (pp) =
+[Tasa No-Show sin SMS] - [Tasa No-Show con SMS]
+
+Pacientes Reincidentes =
+CALCULATE (
+    DISTINCTCOUNT ( dim_patients[patient_id] ),
+    dim_patients[risk_segment] = "4. Riesgo Alto (Reincidente >=2 faltas)"
+)

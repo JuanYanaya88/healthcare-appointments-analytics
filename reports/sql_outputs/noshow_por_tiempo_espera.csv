@@ -1,0 +1,7 @@
+﻿rango_espera,total_citas,pct_citas,citas_noshow,tasa_noshow_pct,ingreso_perdido_usd,satisfaccion_prom
+1. Mismo día (0d),1383,2.9,115,8.32,7015.2,4.37
+2. Corta (1-3d),8270,17.35,1110,13.42,67709.75,4.35
+3. Media (4-7d),11589,24.32,2107,18.18,127940.9,4.36
+4. Alta (8-14d),14053,29.49,3240,23.06,200337.8,4.05
+5. Muy Alta (15-30d),10591,22.22,3130,29.55,191369.75,3.65
+6. Crítica (>30d),1768,3.71,604,34.16,38496.15,3.65

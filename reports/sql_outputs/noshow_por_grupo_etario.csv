@@ -1,0 +1,6 @@
+﻿grupo_etario,total_citas,citas_noshow,tasa_noshow_pct,ingreso_perdido_usd
+1. Menor (<18),4145,905,21.83,55992.0
+2. Joven (18-30),7969,2175,27.29,133629.65
+3. Adulto (31-45),13588,3026,22.27,185761.35
+4. Adulto Mayor (46-60),13740,2852,20.76,174747.0
+5. Senior (>60),8212,1348,16.42,82739.55

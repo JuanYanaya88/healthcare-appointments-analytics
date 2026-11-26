@@ -1,0 +1,13 @@
+﻿rango_espera,recordatorio_sms,total_citas,tasa_noshow_pct,ingreso_perdido_usd
+1. Mismo día (0d),Sin SMS,1156,8.91,6365.2
+1. Mismo día (0d),Con SMS,227,5.29,650.0
+2. Corta (1-3d),Sin SMS,2932,18.38,33023.65
+2. Corta (1-3d),Con SMS,5338,10.7,34686.1
+3. Media (4-7d),Sin SMS,4038,24.34,60297.3
+3. Media (4-7d),Con SMS,7551,14.89,67643.6
+4. Alta (8-14d),Sin SMS,4806,29.21,86671.25
+4. Alta (8-14d),Con SMS,9247,19.86,113666.55
+5. Muy Alta (15-30d),Sin SMS,3714,36.86,83571.7
+5. Muy Alta (15-30d),Con SMS,6877,25.61,107798.05
+6. Crítica (>30d),Sin SMS,570,44.91,16643.1
+6. Crítica (>30d),Con SMS,1198,29.05,21853.05

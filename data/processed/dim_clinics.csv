@@ -1,0 +1,7 @@
+﻿clinic_id,clinic_name,city,complexity_level,consultorios
+CL-01,Sede Norte,Cali,Alta Complejidad,18
+CL-02,Sede Sur,Cali,Mediana Complejidad,14
+CL-03,Sede Centro,Cali,Consulta Externa,12
+CL-04,Sede Chapinero,Bogotá,Alta Complejidad,20
+CL-05,Sede Poblado,Medellín,Alta Complejidad,16
+CL-06,Sede Prado,Barranquilla,Mediana Complejidad,12

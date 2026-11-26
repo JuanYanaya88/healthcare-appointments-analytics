@@ -1,0 +1,19 @@
+# Bases locales y CSVs generados masivos (se reproducen con python run_pipeline.py)
+data/raw/*.csv
+data/processed/*.db
+data/processed/fact_appointments.csv
+data/processed/dim_patients.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Sistema y editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log

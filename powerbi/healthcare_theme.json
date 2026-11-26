@@ -1,0 +1,28 @@
+{
+  "name": "Healthcare Clinical Analytics Theme",
+  "dataColors": [
+    "#0F4C5C",
+    "#1E6091",
+    "#2A9D8F",
+    "#E76F51",
+    "#E9C46A",
+    "#C1121F",
+    "#457B9D",
+    "#52B788"
+  ],
+  "background": "#F0F7F9",
+  "foreground": "#0F4C5C",
+  "tableAccent": "#1E6091",
+  "good": "#2A9D8F",
+  "neutral": "#E9C46A",
+  "bad": "#E76F51",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#D9E8EC" } }, "radius": 8 }],
+        "title": [{ "fontColor": { "solid": { "color": "#0F4C5C" } }, "fontFamily": "Segoe UI Semibold", "fontSize": 12 }]
+      }
+    }
+  }
+}
